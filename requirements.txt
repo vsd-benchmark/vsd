@@ -1,0 +1,12 @@
+torch
+torchvision
+datasets
+scikit-learn
+pandas
+pathlib
+python-fsutil
+clip
+transformers
+fire
+git+https://github.com/openai/CLIP.git
+gdown
