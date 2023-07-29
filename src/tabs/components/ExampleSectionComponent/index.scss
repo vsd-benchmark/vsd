@@ -1,0 +1,64 @@
+.react-multiple-carousel__arrow {
+    padding: 5px 0;
+    background: rgba(black, 0.3);
+    z-index: 50;
+}
+
+
+section.examples {
+    background: rgba(black, 0.02);
+  
+    .slick-dots{
+      display: None;
+    }
+  
+    .slick-dots li button {
+      background-color: rgba(white, 1);
+    }
+  
+    .slick-dots li.slick-active button {
+      background-color: white;
+    }
+  
+    .examples_description {
+      margin: 10px 0 20px 0;
+    }
+  
+    .example_items {
+      display: flex;
+      align-items: center;
+    }
+  
+    .example_item {
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      align-items: center;
+      margin-bottom: 40px;
+  
+      .example_images { 
+        display: flex;
+        margin-bottom: 10px;
+  
+        .example_image {
+          display: flex;
+          flex-direction: column;
+          justify-items: center;
+          align-items: center;
+          max-width: 50%;
+        }
+        
+        > * {
+          margin: 0 12px;
+          text-align: center;
+          font-weight: 600;
+        }
+  
+        img {
+          border: 1px solid rgba(white, 0.8);
+          display: block;
+          max-width: 100%;
+        }
+      }
+    }
+  }

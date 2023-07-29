@@ -1,0 +1,170 @@
+@import './breakpoints.scss';
+
+.container.title-section {
+  background-color: rgba(3, 44, 60, 0.8);
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  @media screen and (max-width: $screen-xs-max) {
+    padding: 15px 5px;
+  }
+}
+
+section h1,h2,h3,h4 {
+  color: rgba(0, 0, 0, 9);
+}
+
+section.title-section {
+  h1,h2,h3,h4 {
+    color: white;
+  }
+}
+
+.ant-tabs .ant-tabs-tab {
+  padding: 5px 0;
+}
+
+.ant-tabs > div {
+  > .ant-tabs-nav  {
+    margin: 0;
+    margin-bottom: 4px;
+    
+    &::before {
+      color: red;
+      border: none;
+    }
+  }
+}
+
+.anchors-container {
+  z-index: 100;
+  position: relative;
+}
+
+.main-writers {
+  display: flex;
+}
+
+.writers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px 10px;
+  flex-wrap: wrap;
+}
+
+.writers_notes {
+  margin: 15px 0;
+}
+
+.writer-item { 
+  display: flex;
+  flex-direction: column;
+  margin: 5px 10px;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 200px
+}
+
+.writer-name {
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.writers_notes { 
+  margin-top: 15px;
+}
+
+.anchors {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: white;
+
+  .ant-anchor {
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  } 
+}
+
+.links { 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.ant-tag {
+  padding: 5px;
+  font-size: 15px;
+}
+
+.reference-icon {
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.link-item {
+  margin: 0 5px;
+  display: block;
+  color: white;
+}
+
+.title { 
+  margin: 15px 0;
+}
+
+.link-icon {
+  height: 75px;
+  width: 75px;
+  margin-bottom: 5px;
+}
+
+.qoute_code {
+  height: 300px;
+  display: block;
+  overflow: auto;
+}
+
+.abstract {
+  line-height: 130%;
+  // margin: 0 7%;
+}
+
+section + section {
+  border-top: 1px solid rgba(black, 0.01)
+}
+
+.examples_group + .examples_group{
+  border-top: 1px solid rgba(black, 0.05);
+  margin-top: 10px;
+  padding-top: 15px;
+}
+
+.tasks {
+  margin-bottom: 40px;
+}
+
+.leaderboard-container {
+  @media (max-width: $screen-sm-max){
+    margin: auto -30px;
+  }
+}
+
+.ant-tag {
+  display: flex;
+  align-items: center;
+}
+
+.reference-tag {
+  background: whitesmoke;
+}
+
+.what_is_vsd { 
+  @media (min-width: $screen-sm-min){
+    max-width: 80%;
+  }
+}
