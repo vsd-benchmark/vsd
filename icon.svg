@@ -1,0 +1,8 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Blue Circle -->
+  <circle cx="35" cy="35" r="25" fill="blue" />
+
+  <!-- Green Circle -->
+  <circle cx="65" cy="65" r="25" fill="green" />
+
+</svg>
