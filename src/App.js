@@ -4,7 +4,7 @@ import Arxiv from "./arxiv.jpg";
 import "./App.scss";
 
 import {theme, Tabs, Tag} from 'antd';
-import { LineChartOutlined, QuestionCircleOutlined, GithubOutlined, FileTextOutlined} from '@ant-design/icons';
+import Icon, { LineChartOutlined, QuestionCircleOutlined, GithubOutlined, FileTextOutlined, FileImageOutlined} from '@ant-design/icons';
 
 
 import StickyBox from 'react-sticky-box';
@@ -32,7 +32,6 @@ const TABS = [
     children: (<AboutTab/>),
   }
 ]
-
 
 function ReferenceLink({ icon: Icon, text, link = "" }) {
   return (
@@ -73,6 +72,7 @@ function App() {
         <h2>Visual Similiarity Discovery</h2>
         <h5>Datasets and benchmarks</h5>
         <div className="links">
+            <ReferenceLink icon={FileImageOutlined} text="Dataset" link="https://huggingface.co/datasets/vsd-benchmark/vsd-fashion"/>
             <ReferenceLink icon={GithubOutlined} text="Code" link="https://github.com/vsd-benchmark/vsd"/>
             <ReferenceLink icon={FileTextOutlined} text="Paper" />
         </div>

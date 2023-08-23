@@ -85,7 +85,7 @@ export default function BenchmarkTab({}) {
         Visual similarity measures the perceptual agreement between two objects based on their visual appearance. Two objects can be similar or dissimilar based on their color, shape, size, pattern, utility, and more.<br/>
         In fact, all of these factors and many others play a role in determining the degree of visual similarity between two objects with varying importance.<br/>
         Therefore, defining perceived visual similarity based on these factors is challenging. Nonetheless, learning visual similarities is a key building block for many practical utilities such as search, recommendations, etc.<br/><br/>
-        We differentiate the identification task and the discovery task. In the identification task; given a query image of an object, the identification task deals with retrieving images of an <strong>identical</strong> object taken under various conditions. However, in the discovery task, given an image of a certain object, VSD retrieves images of different objects with high perceptual visual similarity.
+        We differentiate the identification task and the discovery task. In the identification task; given a query image of an object, the identification task deals with retrieving images of an <strong>identical</strong> object taken under various conditions. However, in the discovery task, given an image of a certain object, VSD retrieves images of <strong>different</strong> objects with high perceptual visual similarity.
         </Paragraph>
       </section>
       <section id="leaderboard" className="leaderboard container">
