@@ -1,6 +1,6 @@
 # Efficient Discovery and Effective Evaluation of Visual Similarities: A Benchmark and Beyond
 
-[![arXiv](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg)](https://arxiv.org/abs/1234.56789)
+[![arXiv](https://img.shields.io/badge/arXiv-2308.14753-b31b1b.svg)](https://arxiv.org/abs/2308.14753)
 
 [![VSD Leaderboard](https://img.shields.io/badge/VSD-Leaderboard-blue)](https://vsd-benchmark.github.io/vsd/)
 
@@ -81,7 +81,7 @@ datasets/img/WOMEN - In-shop Clothes Retrieval Benchmark
 
 ---
 
-Annotations
+Datasets
 -----------
 
 The VSD datasets annotations can be found and downloaded from our HuggingFace dataset [vsd-benchmark/vsd-fashion](https://huggingface.co/datasets/vsd-benchmark/vsd-fashion).
