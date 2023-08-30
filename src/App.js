@@ -74,7 +74,7 @@ function App() {
         <div className="links">
             <ReferenceLink icon={FileImageOutlined} text="Dataset" link="https://huggingface.co/datasets/vsd-benchmark/vsd-fashion"/>
             <ReferenceLink icon={GithubOutlined} text="Code" link="https://github.com/vsd-benchmark/vsd"/>
-            <ReferenceLink icon={FileTextOutlined} text="Paper" />
+            <ReferenceLink icon={FileTextOutlined} text="Paper" link="https://arxiv.org/abs/2308.14753" />
         </div>
       </section>
       <Tabs 
