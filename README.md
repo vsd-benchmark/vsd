@@ -147,3 +147,15 @@ Relevant metrics to monitor and validate:
 
   ]
   ```
+
+## Citation
+If you find this useful, please cite our paper:
+```
+@article{vsd,
+  title={Efficient Discovery and Effective Evaluation of Visual Perceptual Similarity: A Benchmark and Beyond},
+  author={Barkan, Oren and Reiss, Tal and Weill, Jonathan and Katz, Ori and Hirsch, Roy and Malkiel, Itzik and Koenigstein, Noam},
+  journal={arXiv preprint arXiv:2308.14753},
+  year={2023}
+}
+```
+
